@@ -8,7 +8,7 @@ const {userCreate}=useContext(AuthContext);
 // const {createUser} = useContext(AuthContext)
 // console.log(createUser);
 
-    const  =(event)=>{
+    const handlerSubmitReg =(event)=>{
         event.preventDefault();
         const form = event.target;
          const name = form.name.value
