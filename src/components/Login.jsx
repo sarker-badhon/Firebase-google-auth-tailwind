@@ -28,7 +28,7 @@ const Login = () => {
             })
 
         }
-            const handlerGoogleSignIn =()=>{
+            const  =()=>{
                 signInWithGoogle()
                 .then((result) => {
                     const user = result.user;
