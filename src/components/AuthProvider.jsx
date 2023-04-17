@@ -11,7 +11,7 @@ const AuthProvider = ({children}) => {
     const [user, setUser] = useState(null)
 
 
-    const userCreate = (email, password) => {
+    const  = (email, password) => {
         return createUserWithEmailAndPassword(auth, email, password)
     }
 
